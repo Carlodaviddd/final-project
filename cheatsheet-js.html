@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1>Final Project</h1>
+      <ul>
+        <li><a href="index.html">Profile</a></li>
+        <li><a href="cheatsheet-html.html">HTML Cheat Sheet</a></li>
+        <li><a href="cheatsheet-css.html">CSS Cheat Sheet</a></li>
+        <li><a href="cheatsheet-js.html">JS Cheat Sheet</a></li>
+      </ul>
+    </nav>
+
+    <!-- JavaScript Cheatsheet -->
+    <section id="cheatsheet">
+      <div class="container">
+        <h2>JavaScript Cheat Sheet</h2>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>JavaScript Feature</th>
+                <th>Description</th>
+                <th>Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>console.log()</td>
+                <td>Outputs a message to the console</td>
+                <td>console.log(<strong>'Hello World!'</strong>);</td>
+              </tr>
+              <tr>
+                <td>alert()</td>
+                <td>Displays an alert box with a message</td>
+                <td>alert(<strong>'Hello!'</strong>);</td>
+              </tr>
+              <tr>
+                <td>var</td>
+                <td>
+                  Used to initialize to value, redeclared and its value can be
+                  reassigned
+                </td>
+                <td>var <strong>y = 10;</strong></td>
+              </tr>
+              <tr>
+                <td>let</td>
+                <td>Similar to var but is blocked scope</td>
+                <td>let <strong>x = 5;</strong></td>
+              </tr>
+              <tr>
+                <td>const</td>
+                <td>Declares a constant value that cannot be changed</td>
+                <td>const <strong>pi = 3.14;</strong></td>
+              </tr>
+              <tr>
+                <td>function</td>
+                <td>Objects that can be called to execute a block of code</td>
+                <td>
+                  function greet() { <br />
+                  <strong>alert('Hello!');</strong> <br />
+                  }
+                </td>
+              </tr>
+              <tr>
+                <td>if/else</td>
+                <td>Conditional statements</td>
+                <td>
+                  if <strong>(x > 5)</strong> { <br />
+                  <strong>console.log('Yes');</strong> <br />
+                  } else { <br />
+                  <strong>console.log('No'); </strong><br />
+                  }
+                </td>
+              </tr>
+              <tr>
+                <td>for loop</td>
+                <td>Loops a block of code a certain number of times</td>
+                <td>
+                  for (<strong>let i = 0; i &lt; 5; i++</strong>) { <br />
+                  <strong>console.log(i);</strong> <br />
+                  }
+                </td>
+              </tr>
+              <tr>
+                <td>Array</td>
+                <td>
+                  Stores multiple values of same type in a single variable
+                </td>
+                <td>let <strong>arr = [1, 2, 3];</strong></td>
+              </tr>
+              <tr>
+                <td>object</td>
+                <td>
+                  Complex data type that allows us to store a collection of data
+                </td>
+                <td>let <strong>obj = { name: 'Carlo', age: 25 };</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <p>2025 Carlo David. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
