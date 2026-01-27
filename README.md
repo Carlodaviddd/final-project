@@ -9,5 +9,6 @@ This vanilla project includes a **cheatsheet** for **HTML**, **CSS**, and **Java
 - Lightweight and easy to understand
 
 ## How to See It
-1. Clone this repository
-2. Open `index.html` in your browser.
+1. Download or Clone this repository.
+2. Open the `index.html` file in Visual Studio Code.
+3. Use Live Server extension in VS Code to see the project in your browser.
